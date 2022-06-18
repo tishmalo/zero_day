@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/notification_background"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/message1"
+        android:icon="@drawable/ic_message"
+        android:title="Message"/>
+    <item
+        android:id="@+id/emergency"
+        android:icon="@drawable/ic_baseline_add_alert_24"
+        android:title="Nearest Donors"/>
+
+
+
+    <item android:title="Blood Groups">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aplus"
+                    android:icon="@drawable/aplus"
+                    android:title="A POSITIVE"/>
+
+                <item
+                    android:id="@+id/aminus"
+                    android:icon="@drawable/aminus"
+                    android:title="A NEGATIVE"/>
+                <item
+                    android:id="@+id/abplus"
+                    android:icon="@drawable/abplus"
+                    android:title="AB POSITIVE"/>
+                <item
+                    android:id="@+id/abminus"
+                    android:icon="@drawable/abminus"
+                    android:title="AB NEGATIVE"/>
+                <item
+                    android:id="@+id/bplus"
+                    android:icon="@drawable/bplus"
+                    android:title="B POSITIVE"/>
+                <item
+                    android:id="@+id/bminus"
+                    android:icon="@drawable/bminus"
+                    android:title="B NEGATIVE"/>
+                <item
+                    android:id="@+id/oplus"
+                    android:icon="@drawable/oplus"
+                    android:title="O POSITIVE"/>
+
+                <item
+                    android:id="@+id/ominus"
+                    android:icon="@drawable/ominus"
+                    android:title="O NEGATIVE"/>
+
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:title="ACTION"
+       >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                    android:title="PROFILE" />
+
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="LOG OUT" />
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+
+
+
+</menu>
